@@ -40,10 +40,6 @@ export default function Team() {
             </div>
           ))}
         </div>
-        <p className="mt-6 text-xs text-muted">
-          Placeholder photos — replace with real team headshots and names
-          before this goes live.
-        </p>
       </div>
     </section>
   );
