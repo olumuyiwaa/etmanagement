@@ -42,7 +42,11 @@ export default function ServiceCategoryDetail({
                   </h2>
                   <p className="mt-4 text-muted">{category.description}</p>
 
-                  <ul className="mt-6 flex flex-col gap-3">
+                  <ul className={`mt-6 gap-3 ${
+                      index === 0
+                          ? "grid md:grid-cols-2"
+                          : "flex flex-col"
+                  }`}>
                     {category.items.map((item, i) => (
                         <li
                             key={item}

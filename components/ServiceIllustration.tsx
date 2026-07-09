@@ -17,8 +17,8 @@ interface ServiceIllustrationProps {
 const LOTTIE_MAP: Record<string, string> = {
     "consultancy-research-strategy": "/lotties/Animation2.lottie",
     "corporate-publishing-communication": "/lotties/Animation1.lottie",
-    "digital-branding-technology": "/lotties/Animation1.lottie",
-    "training-capacity-development": "/lotties/Animation1.lottie",
+    "digital-branding-technology": "/lotties/Animation4.lottie",
+    "training-capacity-development": "/lotties/Animation3.lottie",
 };
 
 export default function ServiceIllustration({
@@ -41,7 +41,7 @@ export default function ServiceIllustration({
             <DotLottieReact
                 src={src}
                 loop={true}
-                autoplay={active}
+                autoplay={true}
                 className="w-full h-full scale-110"
                 speed={0.95}
             />
