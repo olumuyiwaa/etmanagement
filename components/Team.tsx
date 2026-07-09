@@ -2,10 +2,8 @@ import Image from "next/image";
 import { placeholderPhoto } from "@/lib/images";
 
 const teamPlaceholders = [
-  { seed: "et-partner-1", name: "Partner name", role: "Managing Partner" },
-  { seed: "et-partner-2", name: "Partner name", role: "Head of Strategy" },
-  { seed: "et-partner-3", name: "Partner name", role: "Head of Research" },
-  { seed: "et-partner-4", name: "Partner name", role: "Head of Advisory" },
+  { link: "https://media.licdn.com/dms/image/v2/D4E03AQF33bAcidJT2g/profile-displayphoto-crop_800_800/B4EZy.umzKJcAI-/0/1772726416774?e=1785369600&v=beta&t=aSG5jWIjBUUBZ7k-CYp9jEfJ47MHbx7opCGgS0eFzZk", name: "Egbiremonlen Emmanuel", role: "Head of Strategy & Research" },
+  { link: "https://media.licdn.com/dms/image/v2/D4D03AQGfn2BsG-r_wQ/profile-displayphoto-crop_800_800/B4DZg8v1WVGQAc-/0/1753365830669?e=1785369600&v=beta&t=hOth0HyLQtsd3XzOhgvoFSE3DrDJ52uk8kBWqPhEbxc", name: "Oladoyin Emmanuel", role: "Head of Engineering" },
 ];
 
 export default function Team() {
@@ -21,11 +19,11 @@ export default function Team() {
 
         <div className="mt-14 grid grid-cols-2 gap-6 md:grid-cols-4">
           {teamPlaceholders.map((person) => (
-            <div key={person.seed}>
+            <div key={person.link}>
               <div className="relative aspect-square overflow-hidden rounded-2xl border border-line bg-surface grayscale">
                 <Image
-                  src={placeholderPhoto(person.seed, 400, 400)}
-                  alt={`Placeholder headshot for ${person.role}`}
+                  src={person.link}
+                  alt={`Headshot for ${person.role}`}
                   fill
                   className="object-cover"
                   sizes="(min-width: 768px) 25vw, 50vw"
