@@ -3,7 +3,7 @@ import { placeholderPhoto } from "@/lib/images";
 
 const teamPlaceholders = [
   { link: "https://media.licdn.com/dms/image/v2/D4E03AQF33bAcidJT2g/profile-displayphoto-crop_800_800/B4EZy.umzKJcAI-/0/1772726416774?e=1785369600&v=beta&t=aSG5jWIjBUUBZ7k-CYp9jEfJ47MHbx7opCGgS0eFzZk", name: "Egbiremonlen Emmanuel", role: "Head of Strategy & Research" },
-  { link: "https://media.licdn.com/dms/image/v2/D4D03AQGfn2BsG-r_wQ/profile-displayphoto-crop_800_800/B4DZg8v1WVGQAc-/0/1753365830669?e=1785369600&v=beta&t=hOth0HyLQtsd3XzOhgvoFSE3DrDJ52uk8kBWqPhEbxc", name: "Oladoyin Emmanuel", role: "Head of Engineering" },
+  { link: "https://media.licdn.com/dms/image/v2/D4D03AQGfn2BsG-r_wQ/profile-displayphoto-crop_800_800/B4DZg8v1WVGQAc-/0/1753365830669?e=1785369600&v=beta&t=hOth0HyLQtsd3XzOhgvoFSE3DrDJ52uk8kBWqPhEbxc", name: "Oladoyin Emmanuel", role: "Lead Software Engineer" },
 ];
 
 export default function Team() {
