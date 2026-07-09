@@ -12,7 +12,7 @@ export default function Consultation() {
         </p>
         <a
           href="contact"
-          className="mt-8 inline-block rounded-full bg-action px-8 py-3 font-mono text-sm uppercase tracking-widest text-paper transition-transform hover:scale-[1.03]"
+          className="mt-8 inline-block rounded bg-action px-8 py-3 font-mono text-sm uppercase tracking-widest text-paper transition-transform hover:scale-[1.03]"
         >
           Book a consultation
         </a>

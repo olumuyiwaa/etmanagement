@@ -24,7 +24,7 @@ export default function HowItWorks() {
             return (
               <li key={item.step} className="relative pl-2">
                 <div className="flex items-center gap-4">
-                  <span className="flex h-11 w-11 items-center justify-center rounded-full border border-line bg-paper text-authority">
+                  <span className="flex h-11 w-11 items-center justify-center rounded border border-line bg-paper text-authority">
                     <Icon size={18} strokeWidth={1.75} />
                   </span>
                   <span className="font-mono text-4xl font-semibold text-line">

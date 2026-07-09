@@ -32,7 +32,7 @@ export default function Header() {
 
         <Link
           href="/contact"
-          className="rounded-full bg-action px-4 py-2 font-mono text-xs uppercase tracking-widest text-paper transition-transform hover:scale-[1.03]"
+          className="rounded bg-action px-4 py-2 font-mono text-xs uppercase tracking-widest text-paper transition-transform hover:scale-[1.03]"
         >
           Get in touch
         </Link>

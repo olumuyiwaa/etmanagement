@@ -40,7 +40,7 @@ export default function ServicesPage() {
                             <a
                                 key={category.slug}
                                 href={`#${category.slug}`}
-                                className="rounded-full border border-line px-4 py-2 font-mono text-xs uppercase tracking-widest text-muted transition-colors hover:border-authority hover:text-authority"
+                                className="rounded border border-line px-4 py-2 font-mono text-xs uppercase tracking-widest text-muted transition-colors hover:border-authority hover:text-authority"
                             >
                                 {String(i + 1).padStart(2, "0")} &middot; {category.name.split(",")[0]}
                             </a>

@@ -17,13 +17,13 @@ export default function Hero() {
           <div className="mt-10 flex flex-wrap items-center gap-4">
             <a
               href="contact"
-              className="rounded-full bg-action px-6 py-3 font-mono text-sm uppercase tracking-widest text-paper transition-transform hover:scale-[1.03]"
+              className="rounded bg-action px-6 py-3 font-mono text-sm uppercase tracking-widest text-paper transition-transform hover:scale-[1.03]"
             >
               Get in touch
             </a>
             <a
               href="#services"
-              className="rounded-full border border-line px-6 py-3 font-mono text-sm uppercase tracking-widest text-ink transition-colors hover:border-authority hover:text-authority"
+              className="rounded border border-line px-6 py-3 font-mono text-sm uppercase tracking-widest text-ink transition-colors hover:border-authority hover:text-authority"
             >
               Our services
             </a>

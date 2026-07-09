@@ -10,13 +10,13 @@ export default function About() {
           <p className="font-mono text-xs uppercase tracking-widest text-insight">
             About us
           </p>
-          <p className="mt-6 text-lg leading-relaxed text-ink md:text-xl">
+          <p className="mt-6 text-lg leading-relaxed text-ink md:text-l">
             {company.aboutBody}
           </p>
         </div>
 
         <div className="md:col-span-2">
-          <div className="relative aspect-[4/5] overflow-hidden rounded-2xl border border-line">
+          <div className="relative aspect-[4/4] overflow-hidden rounded-2xl border border-line">
             <Image
                 src="/Picture1.jpg"
                 alt="office photo"
