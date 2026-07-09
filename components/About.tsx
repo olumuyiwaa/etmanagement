@@ -10,7 +10,7 @@ export default function About() {
           <p className="font-mono text-xs uppercase tracking-widest text-insight">
             About us
           </p>
-          <p className="mt-6 text-lg leading-relaxed text-ink md:text-l">
+          <p className="mt-6 text-l leading-relaxed text-ink md:text-l">
             {company.aboutBody}
           </p>
         </div>
