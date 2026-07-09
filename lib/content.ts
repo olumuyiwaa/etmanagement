@@ -26,7 +26,7 @@ export interface ServiceCategory {
 }
 
 export const company = {
-  name: "s Limited",
+  name: "ET Management Partners Limited",
   shortName: "ET Partners",
   strapline:
     "Management Consultancy | Research | Strategy | Corporate Advisory and Digital Solutions",
