@@ -7,10 +7,10 @@ export default function Hero() {
       <div className="dot-grid-bg dot-grid-fade absolute inset-0" />
       <div className="relative mx-auto grid max-w-6xl grid-cols-1 items-center gap-12 px-6 py-24 md:grid-cols-2 md:py-32">
         <div>
-          <p className="mb-6 font-mono text-xs uppercase tracking-[0.2em] text-insight">
+          <p className="mb-6 font-mono text-s uppercase tracking-[0.2em] text-insight">
             {company.strapline}
           </p>
-          <p className="font-display text-l font-semibold leading-[1.1] tracking-tight text-ink md:text-5xl">
+          <p className="font-display text-l font-semibold leading-[1.1] tracking-tight text-ink md:text-4xl">
             {company.aboutLead}
           </p>
 

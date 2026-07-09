@@ -143,7 +143,7 @@ export default function ConvergenceDiagram() {
                   x={p.x + (p.lx || 0)}
                   y={p.y + (p.ly || 0)}
                   textAnchor={p.anchor}
-                  className="fill-ink font-mono text-[11px] uppercase tracking-widest sdlc-label"
+                  className="fill-ink font-mono text-[14px] uppercase tracking-widest sdlc-label"
                   style={{ animationDelay: `${0.15 * i + 0.2}s` }}
               >
                 <tspan className="fill-insight">{p.n}</tspan> {p.label}
@@ -160,14 +160,14 @@ export default function ConvergenceDiagram() {
           <text
               textAnchor="middle"
               y="-4"
-              className="fill-ink font-mono text-[13px] uppercase tracking-[0.2em]"
+              className="fill-ink font-mono text-[18px] uppercase tracking-[0.2em]"
           >
             Your Project
           </text>
           <text
               textAnchor="middle"
               y="16"
-              className="fill-insight font-mono text-[9px] uppercase tracking-widest"
+              className="fill-insight font-mono text-[12px] uppercase tracking-widest"
           >
             At The Center
           </text>
