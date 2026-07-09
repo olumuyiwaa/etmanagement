@@ -10,7 +10,7 @@ export default function Hero() {
           <p className="mb-6 font-mono text-s uppercase tracking-[0.2em] text-insight">
             {company.strapline}
           </p>
-          <p className="font-display text-2xl font-semibold leading-[1.1] tracking-tight text-ink md:text-4xl">
+          <p className="font-display text-3xl font-semibold leading-[1.1] tracking-tight text-ink md:text-4xl">
             {company.aboutLead}
           </p>
 
