@@ -6,9 +6,8 @@ export default function CaseStudies() {
           Selected engagements
         </h2>
         <p className="mt-4 max-w-xl text-sm text-muted">
-          This section is a placeholder — swap it for a short summary of two
-          or three real engagements once you have write-ups ready to share
-          publicly.
+          Here are some selected engagements from. Turning bold ideas into market-ready products with speed and confidence.
+          We've partnered with ambitious founders to transform concepts into success.
         </p>
 
         <div className="mt-14 grid grid-cols-1 gap-6 md:grid-cols-2">
