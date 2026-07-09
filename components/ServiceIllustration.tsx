@@ -15,7 +15,7 @@ interface ServiceIllustrationProps {
 
 // Local Lottie files
 const LOTTIE_MAP: Record<string, string> = {
-    "consultancy-research-strategy": "/lotties/Animation1.lottie",
+    "consultancy-research-strategy": "/lotties/Animation2.lottie",
     "corporate-publishing-communication": "/lotties/Animation1.lottie",
     "digital-branding-technology": "/lotties/Animation1.lottie",
     "training-capacity-development": "/lotties/Animation1.lottie",
