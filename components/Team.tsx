@@ -20,7 +20,7 @@ export default function Team() {
         <div className="mt-14 grid grid-cols-2 gap-6 md:grid-cols-4">
           {teamPlaceholders.map((person) => (
             <div key={person.link}>
-              <div className="relative aspect-square overflow-hidden rounded-2xl border border-line bg-surface grayscale">
+              <div className="relative aspect-square overflow-hidden rounded-2xl border border-line bg-surface">
                 <Image
                   src={person.link}
                   alt={`Headshot for ${person.role}`}
