@@ -6,7 +6,7 @@ export default function CaseStudies() {
           Selected Engagements
         </h2>
         <p className="mt-4 max-w-xl text-sm text-muted">
-          Here are some selected engagements from. Turning bold ideas into market-ready products with speed and confidence.
+          Here are some selected engagements showing how we have been turning bold ideas into market-ready products with speed and confidence.
           We've partnered with ambitious founders to transform concepts into success.
         </p>
 
