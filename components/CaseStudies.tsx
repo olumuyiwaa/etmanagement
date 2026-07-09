@@ -3,7 +3,7 @@ export default function CaseStudies() {
     <section id="case-studies" className="border-b border-line bg-surface">
       <div className="mx-auto max-w-6xl px-6 py-24">
         <h2 className="max-w-xl font-display text-3xl font-semibold tracking-tight text-ink md:text-4xl">
-          Selected engagements
+          Selected E``  `1234zngagements
         </h2>
         <p className="mt-4 max-w-xl text-sm text-muted">
           Here are some selected engagements from. Turning bold ideas into market-ready products with speed and confidence.
