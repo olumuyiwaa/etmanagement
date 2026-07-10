@@ -1,6 +1,6 @@
 import Image from "next/image";
-import {placeholderPhoto} from "@/lib/images";
 import {testimonials} from "@/lib/content";
+import {placeholderPhoto} from "@/lib/images";
 
 export default function Testimonials() {
   return (
@@ -17,7 +17,7 @@ export default function Testimonials() {
           {testimonials.map((client, index) => (
               <div
                   key={client.name}
-                  className="bg-gradient-to-br from-white to-gray-50 border border-gray-100 rounded-3xl p-9 shadow-sm hover:shadow-2xl transition-all duration-500 group"
+                  className="bg-gradient-to-br from-white to-gray-50 border border-gray-100 rounded-3xl p-9 shadow-sm hover:shadow-xl transition-all duration-100 group"
               >
                 <div className="text-orange-500 text-6xl opacity-20">“</div>
 
@@ -26,12 +26,12 @@ export default function Testimonials() {
                 </p>
 
                 <div className="flex items-center gap-4">
-                  <div className="h-16 w-16 rounded-2xl overflow-hidden ring-2 ring-orange-100">
+                  <div className="relative mx-auto h-20 w-32 overflow-hidden rounded-2xl border border-line bg-surface grayscale">
                     <Image
                         src={client.image}
                         alt={client.name}
                         fill
-                        className="object-cover group-hover:scale-110 transition-transform duration-500"
+                        className="object-cover"
                     />
                   </div>
                   <div>
