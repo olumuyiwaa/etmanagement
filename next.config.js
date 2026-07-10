@@ -7,6 +7,14 @@ const nextConfig = {
         protocol: "https",
         hostname: "media.licdn.com",
       },
+      {
+        protocol: "https",
+        hostname: "scontent.xx.fbcdn.net",
+      },
+      {
+        protocol: "https",
+        hostname: "picsum.photos",
+      },
     ],
   },
 };

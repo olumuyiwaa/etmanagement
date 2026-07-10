@@ -1,3 +1,5 @@
+import {placeholderPhoto} from "@/lib/images";
+
 export interface NavLink {
   label: string;
   href: string;
@@ -179,5 +181,40 @@ export const faqs: FaqItem[] = [
     question: "How do we start a conversation about a project?",
     answer:
       "Reach out through the contact section below with an outline of your objective, and we'll follow up to discuss scope and fit.",
+  },
+];
+
+export interface Testimonial {
+  name: string;
+  image: string;
+  role: string;
+  organisation: string;
+  quote: string;
+}
+
+export const testimonials: Testimonial[] = [
+  {
+    name: "Adaeze Nwosu",
+    image: placeholderPhoto("Adaeze Nwosu", 400, 400),
+    role: "Managing Director",
+    organisation: "Lagos-based real estate developer",
+    quote:
+        "ET Partners brought a level of rigour to our market entry study that changed how we approached the whole launch. The recommendations were grounded in real data, not guesswork.",
+  },
+  {
+    name: "Tunde Bakare",
+    image: placeholderPhoto("Tunde Bakare", 400, 400),
+    role: "Head of Strategy",
+    organisation: "Regional healthcare provider",
+    quote:
+        "Their bid tender writing support was the difference between a proposal that read like a formality and one that actually won the contract.",
+  },
+  {
+    name: "Ifeoma Chukwu",
+    image: placeholderPhoto("Ifeoma Chukwu", 400, 400),
+    role: "Founder",
+    organisation: "Early-stage fintech startup",
+    quote:
+        "We came to them for a feasibility study and left with a financial model and a strategy we could actually execute against. Professional from start to finish.",
   },
 ];

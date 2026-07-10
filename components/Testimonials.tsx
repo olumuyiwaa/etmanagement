@@ -1,3 +1,7 @@
+import Image from "next/image";
+import {placeholderPhoto} from "@/lib/images";
+import {testimonials} from "@/lib/content";
+
 export default function Testimonials() {
   return (
     <section className="border-b border-line">
@@ -9,19 +13,35 @@ export default function Testimonials() {
           What our clients say
         </h2>
 
-        <div className="mt-14 grid grid-cols-1 gap-6 md:grid-cols-2">
-          {[1, 2].map((i) => (
-            <blockquote
-              key={i}
-              className="rounded-2xl border border-dashed border-line bg-surface p-8"
-            >
-              <p className="text-muted">
-                Placeholder — add a real client quote here once available.
-              </p>
-              <footer className="mt-6 font-mono text-xs uppercase tracking-widest text-muted">
-                Client name &mdash; Role, Organisation
-              </footer>
-            </blockquote>
+        <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-3">
+          {testimonials.map((client, index) => (
+              <div
+                  key={client.name}
+                  className="bg-gradient-to-br from-white to-gray-50 border border-gray-100 rounded-3xl p-9 shadow-sm hover:shadow-2xl transition-all duration-500 group"
+              >
+                <div className="text-orange-500 text-6xl opacity-20">“</div>
+
+                <p className="italic text-zinc-600 text-[14px] leading-relaxed mb-8">
+                  {client.quote}
+                </p>
+
+                <div className="flex items-center gap-4">
+                  <div className="h-16 w-16 rounded-2xl overflow-hidden ring-2 ring-orange-100">
+                    <Image
+                        src={client.image}
+                        alt={client.name}
+                        fill
+                        className="object-cover group-hover:scale-110 transition-transform duration-500"
+                    />
+                  </div>
+                  <div>
+                    <div className="font-semibold">{client.name}</div>
+                    <div className="text-sm text-zinc-500">
+                      {client.role} {client.organisation && `at ${client.organisation}`}
+                    </div>
+                  </div>
+                </div>
+              </div>
           ))}
         </div>
       </div>
