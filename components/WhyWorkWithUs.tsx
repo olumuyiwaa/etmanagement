@@ -1,5 +1,5 @@
 import { Target, Presentation, Layers, ShieldCheck, Headset, type LucideIcon } from "lucide-react";
-import { whyWorkWithUs } from "@/lib/content";
+import {company, whyWorkWithUs} from "@/lib/content";
 
 const icons: LucideIcon[] = [Target, Presentation, Layers, ShieldCheck, Headset];
 
@@ -11,11 +11,15 @@ export default function WhyWorkWithUs() {
           Why work with us
         </p>
         <h2 className="mt-3 max-w-xl font-display text-3xl font-semibold tracking-tight text-ink md:text-4xl">
-          A trusted partner for the decisions that matter
+          {whyWorkWithUs.tagline}
         </h2>
 
+        <p className="mt-6 text-l leading-relaxed text-ink md:text-l">
+          {whyWorkWithUs.body}
+        </p>
+
         <ul className="mt-14 grid grid-cols-1 gap-8 sm:grid-cols-2">
-          {whyWorkWithUs.map((point, i) => {
+          {whyWorkWithUs.points.map((point, i) => {
             const Icon = icons[i] ?? Target;
             return (
               <li key={point.title} className="flex items-start gap-4">

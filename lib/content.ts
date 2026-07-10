@@ -34,6 +34,8 @@ export const company = {
     "We help organisations, institutions, entrepreneurs, and professionals transform ideas, information, and strategic objectives into practical, high-impact business solutions.",
   aboutBody:
     "Through a combination of strategic insight, rigorous research, analytical expertise, financial knowledge, and innovative thinking, we deliver evidence-based solutions that improve organisational performance, strengthen competitiveness, support informed decision-making, and drive sustainable growth. Our multidisciplinary expertise spans management consultancy, market research, business analysis, strategic advisory, financial consultancy, procurement advisory, proposal development, corporate support services, academic research, corporate publishing, digital solutions, and professional training. From business strategy and research to executive communication, technology, and capacity development, we provide integrated services that help clients navigate complexity, manage change confidently, and achieve measurable, long-term success.",
+  credentialBody:
+    "Over the years, we have partnered with a diverse portfolio of clients, including private individuals, start-ups and growing enterprises, medium and large organisations, local and international organisations. We have delivered a broad range of multidisciplinary solutions and services designed to create value, drive organisational growth, improve operational performance, and support long-term sustainability. Our experience spans a wide variety of transactions, engagements, and projects across multiple sectors, demonstrating our ability to deliver tailored solutions to meet the unique needs of each client.",
 };
 
 export const contact = {
@@ -51,13 +53,16 @@ export const navLinks: NavLink[] = [
   { label: "Contact", href: "/contact" },
 ];
 
-export const whyWorkWithUs: WhyPoint[] = [
-  { title: "Strategic, research-driven and evidence-based solutions" },
-  { title: "Executive-level communication and professional presentation design" },
-  { title: "Multidisciplinary consultancy under one trusted partner" },
-  { title: "High standards of professionalism, confidentiality and integrity" },
-  { title: "Reliable project delivery with responsive client support" },
-];
+export const whyWorkWithUs = {
+  tagline: "A trusted partner for the decisions that matter",
+  body: "Our vision and mission are underpinned by a commitment to challenging conventional thinking and delivering innovative, high-impact solutions across business strategy and analytics, healthcare consulting, digital transformation, and financial advisory services. We partner with organisations to develop bespoke, data-driven solutions that optimise capital allocation, enhance operational performance, drive sustainable growth, and create long-term value. By combining deep sector expertise with strategic insight and practical execution, we help our clients navigate complex challenges, unlock new opportunities, and achieve measurable business outcomes.",
+  points: [
+    { title: "Strategic, research-driven and evidence-based solutions" },
+    { title: "Executive-level communication and professional presentation design" },
+    { title: "Multidisciplinary consultancy under one trusted partner" },
+    { title: "High standards of professionalism, confidentiality and integrity" },
+    { title: "Reliable project delivery with responsive client support" },
+  ]};
 
 export const serviceCategories: ServiceCategory[] = [
   {
