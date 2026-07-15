@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section id="home" className="relative overflow-hidden border-b border-line">
       <div className="dot-grid-bg dot-grid-fade absolute inset-0" />
-      <div className="relative mx-auto grid max-w-6xl grid-cols-1 items-center gap-12 px-6 py-24 md:grid-cols-2 md:py-32">
+      <div className="relative mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 px-6 py-24 md:grid-cols-2 md:py-32">
         <div>
           <p className="mb-6 font-mono text-s uppercase tracking-[0.2em] text-insight">
             {company.strapline}

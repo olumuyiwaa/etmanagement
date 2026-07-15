@@ -10,7 +10,7 @@ const iconByStep: Record<number, LucideIcon> = {
 export default function HowItWorks() {
   return (
     <section className="border-b border-line bg-surface">
-      <div className="mx-auto max-w-6xl px-6 py-24">
+      <div className="mx-auto max-w-7xl px-6 py-24">
         <p className="font-mono text-xs uppercase tracking-widest text-insight">
           How we work
         </p>

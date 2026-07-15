@@ -9,7 +9,7 @@ const teamPlaceholders = [
 export default function Team() {
   return (
     <section className="border-b border-line">
-      <div className="mx-auto max-w-6xl px-6 py-24">
+      <div className="mx-auto max-w-7xl px-6 py-24">
         <p className="font-mono text-xs uppercase tracking-widest text-insight">
           Our people
         </p>

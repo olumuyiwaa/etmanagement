@@ -5,7 +5,7 @@ import {placeholderPhoto} from "@/lib/images";
 export default function Testimonials() {
   return (
     <section className="border-b border-line">
-      <div className="mx-auto max-w-6xl px-6 py-24">
+      <div className="mx-auto max-w-7xl px-6 py-24">
         <p className="font-mono text-xs uppercase tracking-widest text-insight">
           Client feedback
         </p>

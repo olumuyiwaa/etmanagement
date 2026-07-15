@@ -8,7 +8,7 @@ export default function Faq() {
 
   return (
     <section className="border-b border-line">
-      <div className="mx-auto max-w-6xl px-6 py-24">
+      <div className="mx-auto max-w-7xl px-6 py-24">
         <h2 className="font-display text-3xl font-semibold tracking-tight text-ink md:text-4xl">
           Frequently asked questions
         </h2>

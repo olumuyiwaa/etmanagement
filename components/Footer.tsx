@@ -10,9 +10,9 @@ const socialLinks = [
 export default function Footer() {
   return (
     <footer>
-      <div className="mx-auto max-w-6xl px-6 py-16">
-        <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
-          <div className="col-span-2">
+      <div className="mx-auto max-w-7xl px-6 py-16">
+        <div className="grid grid-cols-2 gap-8 md:grid-cols-7">
+          <div className="col-span-4">
             <Image
                 src="/logo.png"
                 alt="site logo"
@@ -41,7 +41,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div>
+          <div className="col-span-2">
             <div className="font-mono text-xs uppercase tracking-widest text-muted">
               Contact
             </div>

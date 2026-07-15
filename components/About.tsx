@@ -5,7 +5,7 @@ import { placeholderPhoto } from "@/lib/images";
 export default function About() {
   return (
     <section id="about" className="border-b border-line bg-surface py-12">
-      <div className="mx-auto grid max-w-6xl grid-cols-1 gap-12 px-6 md:grid-cols-4 md:items-center mb-12">
+      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-12 px-6 md:grid-cols-4 md:items-center mb-12">
         <div className="md:col-span-2">
           <p className="font-mono text-xs uppercase tracking-widest text-insight">
             About us
@@ -29,7 +29,7 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div className="mx-auto grid max-w-6xl grid-cols-1 gap-12 px-6 md:grid-cols-5 md:items-center">
+      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-12 px-6 md:grid-cols-5 md:items-center">
         <div className="md:col-span-3">
           <div className="relative aspect-[7/4] overflow-hidden rounded-2xl border border-line">
             <Image

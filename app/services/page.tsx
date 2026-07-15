@@ -49,7 +49,7 @@ export default function ServicesPage() {
                 </div>
             </section>
 
-            <section className="mx-auto max-w-6xl px-6">
+            <section className="mx-auto max-w-7xl px-6">
                 {serviceCategories.map((category, i) => (
                     <ServiceCategoryDetail key={category.slug} category={category} index={i} />
                 ))}

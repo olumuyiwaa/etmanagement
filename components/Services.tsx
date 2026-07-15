@@ -19,7 +19,7 @@ const iconBySlug: Record<string, LucideIcon> = {
 export default function Services() {
   return (
     <section id="services" className="border-b border-line bg-surface">
-      <div className="mx-auto max-w-6xl px-6 py-24">
+      <div className="mx-auto max-w-7xl px-6 py-24">
         <div className="flex flex-wrap items-end justify-between gap-4">
           <div>
             <p className="font-mono text-xs uppercase tracking-widest text-insight">

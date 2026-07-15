@@ -1,7 +1,7 @@
 export default function CaseStudies() {
   return (
     <section id="case-studies" className="border-b border-line bg-surface">
-      <div className="mx-auto max-w-6xl px-6 py-24">
+      <div className="mx-auto max-w-7xl px-6 py-24">
         <h2 className="max-w-xl font-display text-3xl font-semibold tracking-tight text-ink md:text-4xl">
           Selected Engagements
         </h2>
