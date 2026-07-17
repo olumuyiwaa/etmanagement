@@ -25,7 +25,7 @@ export default function PartnersStrip() {
                               alt={logo.alt}
                               width={132}
                               height={54}
-                              className="max-h-8 w-auto object-contain grayscale opacity-70 transition hover:grayscale-0 hover:opacity-100"
+                              className="max-h-8 w-auto object-contain opacity-70 transition hover:opacity-100"
                           />
                       </div>
                   ))}
